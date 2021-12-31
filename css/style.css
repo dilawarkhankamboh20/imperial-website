@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+
+    max-width: 90%;
+    margin: auto;
+}
+
+
+#imperial_background{
+
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,  url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 800px;
+}
+
+.content{
+
+    max-width: 700px;
+    text-align: center;
+    padding-top: 170px;
+    margin: auto;
+}
+
+.content h1{
+
+    color: white;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.content h2{
+
+    color: gray;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+.content button{
+
+    margin-top: 20px;
+    padding: 8px 35px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.content .btn1{
+    background: #03c4eb;
+    border: 2px solid #03c4eb;
+    font-size: 16px;
+    color: white;
+}
+
+.content .btn2{
+
+    background: transparent;
+    border: 2px solid white;
+    font-size: 16px;
+    color: white;
+}
+
+
+header{
+
+    background: rgb(17, 15, 15);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 80px;
+}
+
+
+
+.logo{
+    float: left;
+    padding-top: 15px;
+}
+
+.logo img{
+
+    height: 50px;
+}
+
+
+.anchor{
+
+    float: right;
+    padding-top: 30px;
+}
+
+
+.anchor a{
+
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+
+
+#about{
+
+    height: 600px;
+}
+
+
+.about_heading{
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.about_center{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.about_image{
+
+    float: left;
+}
+
+.about_image img{
+
+    height: 400px;
+}
+
+
+.about_content{
+    float: right;
+    width: 550px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.about_content h2{
+
+    color: gray;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+
+.about_content p{
+
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 35px;
+}
+
+#our_work{
+
+    height: 1100px;
+}
+
+#our_work h1{
+
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.work_image img{
+
+    height: 300px;
+    margin-left: 32px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+
+}
+
+
+#suscribe{
+
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url(../images/subscribe-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+
+.subscribe_content{
+
+    float: left;
+    padding-top: 130px;
+}
+
+.subscribe_content h1{
+
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+.subscribe_content p{
+
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.subscribe_button{
+
+    float: right;
+    padding-top: 170px;
+}
+
+
+.subscribe_button .subscribe{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: capitalize;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 7px 35px;
+}
+
+#test{
+    background: rgb(17, 15, 15);
+    height: 800px;
+
+}
+
+#test h1{
+
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    margin: auto;
+    width: 190px;
+    border-bottom: 2px solid white;
+}
+
+#test .center{
+
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 10px;
+}
+
+
+#test .test_image {
+    margin-top: 30px;
+    float: left;
+}
+
+#test .test_image img{
+
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 300px;
+}
+
+
+#test .test_content{
+
+    float: right;
+    width: 800px;
+    margin-top: 70px;
+    background: white;
+    padding: 30px;
+    height: 200px;
+}
+
+
+#test .test_content p{
+    padding-top: 50px;
+    text-indent: 55px;
+    text-align: justify;
+    font-size: 16px;
+    color: grey;
+    font-style: italic;
+    font-family: sans-serif;
+    line-height: 30px;
+
+}
+
+.float_right{
+    float: right !important;
+    margin-right: 50px;
+    margin-top: 60px !important;
+}
+
+
+.float_left{
+
+    float: left !important;
+
+    margin-left: 50px;
+    
+}
+
+
+#team{
+    height: 500px;
+}
+
+#team h1{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+#team p{
+
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+
+#team .card_image img{
+
+    height: 270px;
+
+}
+
+#team .card{
+
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+.card_heading h2{
+
+    color: gray;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.card_heading h3{
+
+    text-align: center;
+    font-weight: 200;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: gray;
+    padding-top: 10px;
+}
+
+
+#contact{
+    background: black;
+    height: 580px;
+}
+
+#contact h1{
+
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+
+#contact input{
+
+    float: left;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 2px solid gray;
+}
+
+
+#contact input::placeholder{
+
+    color: white;
+}
+
+.name input{
+
+    width: 500px;
+    padding: 10px 15px;
+    margin-top: 60px;
+    background: transparent;
+    margin-left: 40px;
+}
+
+.email input{
+
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 7px;
+    padding: 10px 15px;
+    background: transparent;
+}
+
+
+.subject input{
+    width: 1010px;
+    margin-top: 20px;
+    margin-left: 7px;
+    padding: 20px 15px;
+    background: transparent;
+    margin-left: 40px;
+}
+
+.textarea textarea{
+    width: 1010px;
+    margin-top: 20px;
+    margin-left: 7px;
+    padding: 20px 15px;
+    background: transparent;
+    margin-left: 40px;
+    border: 2px solid grey;
+
+}
+
+.textarea textarea::placeholder{
+
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#contact button{
+    margin-left: 40px;
+    margin-top: 20px;
+    background:transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 8px 35px;
+
+}
+
+
+
+footer{
+
+    height: 60px;
+    background: rgb(17, 15, 15);
+}
+
+footer p{
+
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
